@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+    // Initialize Firebase
+var config = {
+    apiKey: "AIzaSyDO9ojkfxSW_Y5Vuv1gTf-zj_6PzlwAEM0",
+    authDomain: "demoday-e102c.firebaseapp.com",
+    databaseURL: "https://demoday-e102c.firebaseio.com",
+    projectId: "demoday-e102c",
+    storageBucket: "demoday-e102c.appspot.com",
+    messagingSenderId: "595762589560"
+    };
+    firebase.initializeApp(config);
+</script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rich</title>
+    <link rel = "icon" type = "img/png" href = "assets/pngs/logo.png">
+    <link rel = "stylesheet" href = "assets/css/getstarted.css">
+    <script src = "assets/js/awdji.js" defer></script>
+</head>
+<body id = "secondpagebody">
+    <div id = "home">
+        <img id = "logo" src = "assets/pngs/logo.png">
+        <a href = "index.html">Home</a>
+        <div id = "Notification">~Personal Info~</div>
+    </div>
+    <div id = "importantsecondpage">
+    <div id = "actualquiz">
+        <form>
+            <br><br><br><br><br>
+            <center>
+                <div>email (this will be used to update you on your spendings): </div>
+                <input id="email" type = "text" name = "email" value = "insert"><br>
+                <div>name - first:</div>
+                <input id="firstName" type = "text" name = "email" value = "insert"><br>
+                <div>name - last:</div>
+                <input id="secondName" type = "text" name = "email" value = "insert"><br>
+                <div>title:</div>
+                <input id="nameTitle" type = "text" name = "email" value = "insert"><br>
+                <div>monthly income (average):</div>
+                <input id="monthlyIncome" type = "text" name = "email" value = "insert"><br><br>
+                <br><br>
+                <div>do you enjoy listening to music?</div>
+                <input id = "music" type = "checkbox"><br>
+                <div >do you enjoy shopping?</div>
+                <input id = "shopping" type = "checkbox"><br>
+                <div>do you enjoy eating?</div>
+                <input  id = "eating" type = "checkbox"><br>
+                <div>do you find cancer research important?</div>
+                <input id = "breastcancer" type = "checkbox"><br>
+                <div>coding</div>
+                <input id = "allstarcode" type = "checkbox"><br>            
+                <br><br><br><br>
+                <a id = "nextpage" onclick="personalInfoEntered();window.location='items.html';">submit</a>
+                <br><br><br><br>
+            </center>
+        </form>
+
+    </div>
+
+    <a id = "previouspage" href = "FirstPage.html">  Prev  </a>
+    </div>
+
+</body>
+<script>
+
+</script>
+</html>

@@ -7,7 +7,21 @@
     <title>Rich</title>
     <script src = "assets/js/js.js"></script>
     <link rel = "stylesheet" href = "assets/css/stylesheet.css">
-    <link rel = "icon" type = "img/png" href = "assets/pngs/logo.png">    
+    <link rel = "icon" type = "img/png" href = "assets/pngs/logo.png"> 
+    
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+var config = {
+    apiKey: "AIzaSyDO9ojkfxSW_Y5Vuv1gTf-zj_6PzlwAEM0",
+    authDomain: "demoday-e102c.firebaseapp.com",
+    databaseURL: "https://demoday-e102c.firebaseio.com",
+    projectId: "demoday-e102c",
+    storageBucket: "demoday-e102c.appspot.com",
+    messagingSenderId: "595762589560"
+  };
+  firebase.initializeApp(config);
+</script>   
 </head>
 <body id = "body">
     <div id = "topbar">
@@ -19,7 +33,8 @@
         <a id = "donate">Donate</a>
     </div>
     <div id = "Getstarted">
-        <h3>Get started</h3>
+        <h3><a href = "FirstPage.html">Get started<a></h3>
+        
     </div>
     </div>
 
