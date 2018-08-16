@@ -90,8 +90,8 @@ body{
 #instructions{
     display: flex;
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: rgba(255,255,255.8);
     padding-left: 20px;
     padding-right: 20px;
