@@ -90,8 +90,8 @@ body{
 #instructions{
     display: flex;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
     background-color: rgba(255,255,255.8);
     padding-left: 20px;
     padding-right: 20px;
@@ -153,4 +153,8 @@ body{
 
 #nextpage:hover{
     background-color: rgb(70,100,200)
+}
+
+#quiz{
+    font-family: NotificationFont;
 }
