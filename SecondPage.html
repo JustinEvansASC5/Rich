@@ -33,30 +33,73 @@ var config = {
         <form>
             <br><br><br><br><br>
             <center>
-                <div>email (this will be used to update you on your spendings): </div>
+                <div>Email (this will be used to update you on your spendings): </div>
                 <input id="email" type = "text" name = "email" value = "insert"><br>
-                <div>name - first:</div>
+                <div>Name - First:</div>
                 <input id="firstName" type = "text" name = "email" value = "insert"><br>
-                <div>name - last:</div>
+                <div>Name - Last:</div>
                 <input id="secondName" type = "text" name = "email" value = "insert"><br>
-                <div>title:</div>
+                <div>Title:</div>
                 <input id="nameTitle" type = "text" name = "email" value = "insert"><br>
-                <div>monthly income (average):</div>
+                <div>Monthly Income (Average):</div>
                 <input id="monthlyIncome" type = "text" name = "email" value = "insert"><br><br>
                 <br><br>
-                <div>do you enjoy listening to music?</div>
+                <div>Do you enjoy listening to music?</div>
                 <input id = "music" type = "checkbox"><br>
-                <div >do you enjoy shopping?</div>
+                <div >Do you enjoy shopping?</div>
                 <input id = "shopping" type = "checkbox"><br>
-                <div>do you enjoy eating?</div>
-                <input  id = "eating" type = "checkbox"><br>
-                <div>do you find cancer research important?</div>
+                <!-- <div>Do you enjoy eating?</div>
+                <input  id = "eating" type = "checkbox"><br> -->
+                <div>Do you find cancer research important?</div>
                 <input id = "breastcancer" type = "checkbox"><br>
-                <div>coding</div>
+                <div>Are you interested in Programming?</div>
                 <input id = "allstarcode" type = "checkbox"><br>            
                 <br><br><br><br>
                 <a id = "nextpage" onclick="personalInfoEntered();window.location='items.html';">submit</a>
                 <br><br><br><br>
+                <style>
+                body{
+                    /* display:flex; */
+                    font-family: 'Forum', cursive;
+                    /* justify-content: space-around; */
+                    /* text-align: center; */
+                }
+                #shopping{
+                    margin: 2%;
+                    height:15px;
+                    width:15px;
+                }
+                #email{
+                    margin: 2%;
+                }
+                #firstName{
+                    margin: 2%;
+                }
+                #secondName{
+                    margin: 2%;
+                }
+                #nameTitle{
+                    margin:2%;
+                }
+                #monthlyIncome{
+                    margin:2%;
+                }
+                #music{
+                    margin:2%;
+                    height:15px;
+                    width:15px;
+                }
+                #breastcancer{
+                    margin:2%;
+                    height:15px;
+                    width:15px;
+                }
+                #allstarcode{
+                    margin: 2%;
+                    height:15px;
+                    width:15px;
+                }
+                </style>
             </center>
         </form>
 

@@ -21,11 +21,24 @@
         </div>
 <br>
 <br>
-
-<div id="budget">
-    YOUR BUDGET HERE
+<style>
+    #budget{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size:18px;
+    background:white;
+    opacity:0.8; 
+    text-align: left;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    }
+</style>
+<div id="budget" style="display:none;">
+    Car Payment paid in full price of $400,
+    <br>Rent paid in full price of $1100,
+    <br>You can buy 2 Jay-Z Tickets with $780 to spare,
+    <br>You might want to consider donating to one of our linked Musical or Cancer Research charities! 
 </div>
-
 <br>
 <br>
 <div id = "importantitems">
@@ -130,6 +143,7 @@ function saveData(){
     // the entire generic rows will be saved here and this object will be pushed up to firebase
     // I just want to see if I have all of the info
     console.log(tableData);
+    document.getElementById("budget").style.display = "inherit";
 }
 
 // this is like this because how the selected attribute works
